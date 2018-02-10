@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_486752730"
+    android:backgroundTint="#f9ccb0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp">
+        <Button
+            android:id="@+id/ingredients"
+            android:text="Search By Ingredients"
+            android:layout_width="match_parent"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:textAllCaps="false"
+            android:background="@drawable/ripple"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"/>
+        <Button
+            android:id="@+id/name"
+            android:text="Search By Name"
+            android:textSize="20dp"
+            android:layout_below="@+id/ingredients"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:background="@drawable/ripple"
+            android:textAllCaps="false"
+            android:layout_margin="15dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/random"
+            android:text="Suprise Me!"
+            android:textSize="20dp"
+            android:layout_below="@+id/name"
+            android:layout_width="match_parent"
+            android:background="@drawable/ripple"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:textAllCaps="false"
+            android:layout_margin="15dp"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kshitij.com.acion">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/food"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/food"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SelectionPane"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".NameSearch"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NameSearchResult"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".IngredientSearch"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RandomResult"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".IngredientSearchResult"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".RecipeDisplay"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".AboutUs"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>
